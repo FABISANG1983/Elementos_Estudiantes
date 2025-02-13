@@ -2,47 +2,50 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6fMGh06nviM":
+      case "6hHmLwfVAET":
         Script1();
         break;
-      case "5xW7Gg3r651":
+      case "6IpznunwulD":
         Script2();
         break;
-      case "6alhXA32Sbr":
+      case "5YbNf79xbm8":
         Script3();
         break;
-      case "6Yo7tslkDlC":
+      case "6JIDPfFphDi":
         Script4();
         break;
-      case "5quUl52VWH5":
+      case "6qfIIm7yVCG":
         Script5();
         break;
-      case "6ajDR30oF0q":
+      case "6oSaqKrIp0z":
         Script6();
         break;
-      case "6OFeH4CLUcM":
+      case "6GCyc3P634E":
         Script7();
         break;
-      case "5v4LnCMwSPj":
+      case "5dY62uABbE3":
         Script8();
         break;
-      case "5VPWQa1aXdt":
+      case "6qmnCYQ3pnq":
         Script9();
         break;
-      case "6N1oOlhKy8V":
+      case "60odPUunSYn":
         Script10();
         break;
-      case "67NVDq83tVK":
+      case "63qCEWbO64W":
         Script11();
         break;
-      case "6juDh5FsVLX":
+      case "5nu8fnrUQSs":
         Script12();
         break;
-      case "62O4GWwoT6I":
+      case "6nOeDai1Owg":
         Script13();
         break;
-      case "5oFyiHqz0qx":
+      case "6rWD2ZIOxQm":
         Script14();
+        break;
+      case "6rjrsQT3gMj":
+        Script15();
         break;
   }
 }
@@ -272,6 +275,25 @@ target.animate([
 
 window.Script11 = function()
 {
+  const target = object('6G1KJTEXCsa');
+const duration = 750;
+const easing = 'ease-out';
+const id = '6kKFuDfGSXE';
+const pulseAmount = 0.07;
+player.addForTriggers(
+id,
+target.animate([
+{ scale: '1' }, { scale: `${1 + pulseAmount}` },
+{ scale: '1' }, { scale: `${1 + pulseAmount}` },
+{ scale: '1' }
+],
+  { fill: 'forwards', duration, easing }
+)
+);
+}
+
+window.Script12 = function()
+{
   const target = object('6Xw3fLGX46p');
 const duration = 750;
 const easing = 'ease-out';
@@ -289,7 +311,7 @@ target.animate([
 );
 }
 
-window.Script12 = function()
+window.Script13 = function()
 {
   const target = object('5qQ1zW7Epp6');
 const duration = 750;
