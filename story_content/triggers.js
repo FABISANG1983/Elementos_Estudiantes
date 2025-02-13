@@ -2,77 +2,47 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6B1i1QNVh7a":
+      case "6cX9llYezHj":
         Script1();
         break;
-      case "6ZdpUs8b9gp":
+      case "6jUfCmfX37m":
         Script2();
         break;
-      case "6KAguiCqni9":
+      case "5pOP6YtXu2N":
         Script3();
         break;
-      case "6jca1dNGZZw":
+      case "5r7407dyjg5":
         Script4();
         break;
-      case "5zPCrFirrF4":
+      case "6n2lkMPLoGc":
         Script5();
         break;
-      case "6k3dTJ5him2":
+      case "5ZpmDMpduZu":
         Script6();
         break;
-      case "5onKHdbyeVS":
+      case "6MxUT9g8s5T":
         Script7();
         break;
-      case "6RtDMbhir1K":
+      case "6Z70b8OvuLL":
         Script8();
         break;
-      case "6ZNICZGb3M7":
+      case "6TL1VeEstFd":
         Script9();
         break;
-      case "60wuBFz9GSK":
+      case "6iQDpadkkCp":
         Script10();
         break;
-      case "5aoz2cDgdmI":
+      case "6F1mfQ2QUwQ":
         Script11();
         break;
-      case "5YgubeOMTiT":
+      case "6U1botZToq5":
         Script12();
         break;
-      case "5zwJkOeTaCq":
+      case "6jIMsDHV1Um":
         Script13();
         break;
-      case "5WP9QxvWFyk":
+      case "6JZUuGE9cLU":
         Script14();
-        break;
-      case "65833Ex9tNE":
-        Script15();
-        break;
-      case "6C2lDWr4bRS":
-        Script16();
-        break;
-      case "5WcjRkd0ekx":
-        Script17();
-        break;
-      case "5kKdHsuZbC7":
-        Script18();
-        break;
-      case "5mm3FEIJmjr":
-        Script19();
-        break;
-      case "5XDF0o441Zs":
-        Script20();
-        break;
-      case "5mRDJvPpmVA":
-        Script21();
-        break;
-      case "6omfmvXMDsj":
-        Script22();
-        break;
-      case "6OREPsUVWUe":
-        Script23();
-        break;
-      case "5XeIKKAvogL":
-        Script24();
         break;
   }
 }
@@ -187,17 +157,21 @@ target.animate([
 
 window.Script6 = function()
 {
-  const target = object('6Xw3fLGX46p');
+  const target = object('6lB8uYm8d8l');
 const duration = 750;
 const easing = 'ease-out';
-const id = '6RKGKhk252b';
-const pulseAmount = 0.07;
+const id = '5pmlfGlBzoJ';
+const shakeAmount = 2;
 player.addForTriggers(
 id,
 target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
+{ translate: '0 0' },
+{ translate: `-${shakeAmount}px 0` },
+{ translate: '0 0' },
+{ translate: `${shakeAmount}px 0` },
+{ translate: '0 0' },
+{ translate: `-${shakeAmount}px 0` },
+{ translate: '0 0' }
 ],
   { fill: 'forwards', duration, easing }
 )
@@ -206,10 +180,10 @@ target.animate([
 
 window.Script7 = function()
 {
-  const target = object('5qQ1zW7Epp6');
+  const target = object('6lB8uYm8d8l');
 const duration = 750;
 const easing = 'ease-out';
-const id = '5iIPftlaDtW';
+const id = '5pmlfGlBzoJ';
 const shakeAmount = 2;
 player.addForTriggers(
 id,
@@ -229,17 +203,21 @@ target.animate([
 
 window.Script8 = function()
 {
-  const target = object('6UIVti2ecfB');
+  const target = object('6lB8uYm8d8l');
 const duration = 750;
 const easing = 'ease-out';
-const id = '6TDHbAWwjaG';
-const pulseAmount = 0.07;
+const id = '5pmlfGlBzoJ';
+const shakeAmount = 2;
 player.addForTriggers(
 id,
 target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
+{ translate: '0 0' },
+{ translate: `-${shakeAmount}px 0` },
+{ translate: '0 0' },
+{ translate: `${shakeAmount}px 0` },
+{ translate: '0 0' },
+{ translate: `-${shakeAmount}px 0` },
+{ translate: '0 0' }
 ],
   { fill: 'forwards', duration, easing }
 )
@@ -248,17 +226,21 @@ target.animate([
 
 window.Script9 = function()
 {
-  const target = object('66awpHNGRow');
+  const target = object('6lB8uYm8d8l');
 const duration = 750;
 const easing = 'ease-out';
-const id = '6WSj6XK3Wmj';
-const pulseAmount = 0.07;
+const id = '5pmlfGlBzoJ';
+const shakeAmount = 2;
 player.addForTriggers(
 id,
 target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
+{ translate: '0 0' },
+{ translate: `-${shakeAmount}px 0` },
+{ translate: '0 0' },
+{ translate: `${shakeAmount}px 0` },
+{ translate: '0 0' },
+{ translate: `-${shakeAmount}px 0` },
+{ translate: '0 0' }
 ],
   { fill: 'forwards', duration, easing }
 )
@@ -267,17 +249,21 @@ target.animate([
 
 window.Script10 = function()
 {
-  const target = object('5ZhNvzJn1yR');
+  const target = object('6lB8uYm8d8l');
 const duration = 750;
 const easing = 'ease-out';
-const id = '6MBAMbUzAw6';
-const pulseAmount = 0.07;
+const id = '5pmlfGlBzoJ';
+const shakeAmount = 2;
 player.addForTriggers(
 id,
 target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
+{ translate: '0 0' },
+{ translate: `-${shakeAmount}px 0` },
+{ translate: '0 0' },
+{ translate: `${shakeAmount}px 0` },
+{ translate: '0 0' },
+{ translate: `-${shakeAmount}px 0` },
+{ translate: '0 0' }
 ],
   { fill: 'forwards', duration, easing }
 )
@@ -286,10 +272,10 @@ target.animate([
 
 window.Script11 = function()
 {
-  const target = object('6ddpVdpWPrv');
+  const target = object('6Xw3fLGX46p');
 const duration = 750;
 const easing = 'ease-out';
-const id = '5cSBXwsYpya';
+const id = '6RKGKhk252b';
 const pulseAmount = 0.07;
 player.addForTriggers(
 id,
@@ -305,209 +291,21 @@ target.animate([
 
 window.Script12 = function()
 {
-  const target = object('624FCGolVE8');
+  const target = object('5qQ1zW7Epp6');
 const duration = 750;
 const easing = 'ease-out';
-const id = '6FWXa8XKt4m';
-const pulseAmount = 0.07;
+const id = '5iIPftlaDtW';
+const shakeAmount = 2;
 player.addForTriggers(
 id,
 target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
-],
-  { fill: 'forwards', duration, easing }
-)
-);
-}
-
-window.Script13 = function()
-{
-  const target = object('5jZyefvaJGT');
-const duration = 750;
-const easing = 'ease-out';
-const id = '5scmw9FgzQs';
-const pulseAmount = 0.07;
-player.addForTriggers(
-id,
-target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
-],
-  { fill: 'forwards', duration, easing }
-)
-);
-}
-
-window.Script14 = function()
-{
-  const target = object('5oGXXh7f4uH');
-const duration = 750;
-const easing = 'ease-out';
-const id = '5wfaMN8LS5n';
-const pulseAmount = 0.07;
-player.addForTriggers(
-id,
-target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
-],
-  { fill: 'forwards', duration, easing }
-)
-);
-}
-
-window.Script15 = function()
-{
-  const target = object('5r7YxAVmHzu');
-const duration = 750;
-const easing = 'ease-out';
-const id = '5czN5bRIpaz';
-const pulseAmount = 0.07;
-player.addForTriggers(
-id,
-target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
-],
-  { fill: 'forwards', duration, easing }
-)
-);
-}
-
-window.Script16 = function()
-{
-  const target = object('6Jl7fpPrcGG');
-const duration = 750;
-const easing = 'ease-out';
-const id = '6hpPamQjnpB';
-const pulseAmount = 0.07;
-player.addForTriggers(
-id,
-target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
-],
-  { fill: 'forwards', duration, easing }
-)
-);
-}
-
-window.Script17 = function()
-{
-  const target = object('6oyQO3Idt5v');
-const duration = 750;
-const easing = 'ease-out';
-const id = '6hpPamQjnpB';
-const pulseAmount = 0.07;
-player.addForTriggers(
-id,
-target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
-],
-  { fill: 'forwards', duration, easing }
-)
-);
-}
-
-window.Script18 = function()
-{
-  const target = object('6QCtTtwX47Z');
-const duration = 1250;
-const easing = 'ease-out';
-const id = '5egJmRZ2HT4';
-const pulseAmount = 0.1;
-player.addForTriggers(
-id,
-target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
-],
-  { fill: 'forwards', duration, easing }
-)
-);
-}
-
-window.Script19 = function()
-{
-  player.once(() => {
-const target = object('6r7EaQY3uzn');
-const duration = 750;
-const easing = 'ease-out';
-const id = '6A2NKCPji7Q';
-const pulseAmount = 0.07;
-const delay = 0;
-addToTimeline(
-target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
-],
-  { fill: 'forwards', delay, duration, easing }
-), id
-);
-});
-}
-
-window.Script20 = function()
-{
-  const target = object('6r7EaQY3uzn');
-const duration = 750;
-const easing = 'ease-out';
-const id = '6A2NKCPji7Q';
-const pulseAmount = 0.07;
-player.addForTriggers(
-id,
-target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
-],
-  { fill: 'forwards', duration, easing }
-)
-);
-}
-
-window.Script21 = function()
-{
-  const target = object('67LU0A9g7xR');
-const duration = 1250;
-const easing = 'ease-out';
-const id = '5egJmRZ2HT4';
-const pulseAmount = 0.1;
-player.addForTriggers(
-id,
-target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
-],
-  { fill: 'forwards', duration, easing }
-)
-);
-}
-
-window.Script22 = function()
-{
-  const target = object('60wKQDGhdUS');
-const duration = 1250;
-const easing = 'ease-out';
-const id = '6KkzjhLL8rq';
-const pulseAmount = 0.1;
-player.addForTriggers(
-id,
-target.animate([
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }, { scale: `${1 + pulseAmount}` },
-{ scale: '1' }
+{ translate: '0 0' },
+{ translate: `-${shakeAmount}px 0` },
+{ translate: '0 0' },
+{ translate: `${shakeAmount}px 0` },
+{ translate: '0 0' },
+{ translate: `-${shakeAmount}px 0` },
+{ translate: '0 0' }
 ],
   { fill: 'forwards', duration, easing }
 )
