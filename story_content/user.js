@@ -2,49 +2,15 @@ window.InitUserScripts = function()
 {
 var player = GetPlayer();
 var object = player.object;
+var once = player.once;
 var addToTimeline = player.addToTimeline;
 var setVar = player.SetVar;
 var getVar = player.GetVar;
-window.Script15 = function()
-{
-  var elem = document.documentElement;
-
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { /* Safari */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE11 */
-    elem.msRequestFullscreen();
-  }
-}
-
-
-if(document.fullscreenElement == null){
-openFullscreen();
-};
-
-}
-
-window.Script16 = function()
-{
-  var elem = document.documentElement;
-
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { /* Safari */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE11 */
-    elem.msRequestFullscreen();
-  }
-}
-
-
-if(document.fullscreenElement == null){
-openFullscreen();
-};
-
-}
-
+var update = player.update;
+var pointerX = player.pointerX;
+var pointerY = player.pointerY;
+var showPointer = player.showPointer;
+var hidePointer = player.hidePointer;
+var slideWidth = player.slideWidth;
+var slideHeight = player.slideHeight;
 };
